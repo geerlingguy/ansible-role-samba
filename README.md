@@ -1,6 +1,6 @@
 # Ansible Role: Samba (SMB)
 
-Installs Samba client and server for RHEL/CentOS 6.x.
+Installs Samba client and server for RHEL/CentOS.
 
 ## Requirements
 
