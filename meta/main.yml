@@ -3,15 +3,15 @@ dependencies: []
 
 galaxy_info:
   author: geerlingguy
-  description: Samba for RHEL/CentOS.
+  description: "Samba for RHEL/CentOS."
   company: "Midwestern Mac, LLC"
   license: "license (BSD, MIT)"
   min_ansible_version: 1.8
   platforms:
-  - name: EL
-    versions:
-    - 6
-    - 7
+    - name: EL
+      versions:
+        - 6
+        - 7
   galaxy_tags:
     - networking
     - system
