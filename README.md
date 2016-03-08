@@ -6,7 +6,7 @@ Installs Samba client and server for RHEL/CentOS.
 
 ## Requirements
 
-None.
+Samba requires ports 137, 138, 139, 445 to be open to function properly. For easy firewall configuration, you can use the `geerlingguy.firewall` role.
 
 ## Role Variables
 

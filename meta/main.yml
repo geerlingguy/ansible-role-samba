@@ -12,6 +12,12 @@ galaxy_info:
       versions:
         - 6
         - 7
+    - name: Ubuntu
+      versions:
+      - all
+    - name: Debian
+      versions:
+      - all
   galaxy_tags:
     - networking
     - system
