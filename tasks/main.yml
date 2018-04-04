@@ -3,7 +3,7 @@
   include_vars: "{{ ansible_os_family }}.yml"
 
 - name: Ensure Samba-related packages are installed (RedHat).
-  yum: "name={{ item }} state=installed"
+  yum: "name={{ item }} state=present"
   with_items:
     - samba
     - samba-client
@@ -12,7 +12,7 @@
   when: ansible_os_family == 'RedHat'
 
 - name: Ensure Samba-related packages are installed (Debian).
-  apt: "name={{ item }} state=installed"
+  apt: "name={{ item }} state=present"
   with_items:
     - samba
     - samba-common
