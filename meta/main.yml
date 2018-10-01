@@ -6,7 +6,7 @@ galaxy_info:
   description: "Samba for RHEL/CentOS."
   company: "Midwestern Mac, LLC"
   license: "license (BSD, MIT)"
-  min_ansible_version: 1.8
+  min_ansible_version: 2.0
   platforms:
     - name: EL
       versions:
@@ -14,13 +14,13 @@ galaxy_info:
         - 7
     - name: Fedora
       versions:
-      - all
+        - all
     - name: Ubuntu
       versions:
-      - all
+        - all
     - name: Debian
       versions:
-      - all
+        - all
   galaxy_tags:
     - networking
     - system
