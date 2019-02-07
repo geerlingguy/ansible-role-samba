@@ -10,7 +10,11 @@ Samba requires ports 137, 138, 139, 445 to be open to function properly. For eas
 
 ## Role Variables
 
-None.
+Available variables are listed below:
+
+    samba_packages: []
+
+A list of the Samba packages to install (OS-specific by default).
 
 ## Dependencies
 
