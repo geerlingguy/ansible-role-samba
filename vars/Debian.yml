@@ -1,2 +1,8 @@
 ---
 samba_daemon: smbd
+
+samba_packages:
+  - samba
+  - samba-common
+  - python-glade2
+  - system-config-samba

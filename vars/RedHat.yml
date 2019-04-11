@@ -1,2 +1,8 @@
 ---
 samba_daemon: smb
+
+samba_packages:
+  - samba
+  - samba-client
+  - samba-common
+  - cifs-utils
