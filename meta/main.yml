@@ -2,6 +2,7 @@
 dependencies: []
 
 galaxy_info:
+  role_name: samba
   author: geerlingguy
   description: "Samba for RHEL/CentOS."
   company: "Midwestern Mac, LLC"
