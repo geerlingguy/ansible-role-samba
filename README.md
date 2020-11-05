@@ -1,6 +1,6 @@
 # Ansible Role: Samba (SMB)
 
-[![Build Status](https://travis-ci.com/geerlingguy/ansible-role-samba.svg?branch=master)](https://travis-ci.com/geerlingguy/ansible-role-samba)
+[![CI](https://github.com/geerlingguy/ansible-role-samba/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-samba/actions?query=workflow%3ACI)
 
 Installs Samba client and server for RHEL/CentOS.
 
