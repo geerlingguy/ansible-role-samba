@@ -1,6 +1,6 @@
 ---
 - name: Include OS-specific variables.
-  include_vars: "{{ ansible_os_family }}.yml"
+  include_vars: "{{ ansible_facts.os_family }}.yml"
 
 - name: Ensure Samba-related packages are installed (RedHat).
   package:
@@ -10,7 +10,7 @@
       - samba-common
       - cifs-utils
     state: present
-  when: ansible_os_family == 'RedHat'
+  when: ansible_facts.os_family == 'RedHat'
 
 - name: Ensure Samba-related packages are installed (Debian).
   apt:
@@ -18,7 +18,7 @@
       - samba
       - samba-common
     state: present
-  when: ansible_os_family == 'Debian'
+  when: ansible_facts.os_family == 'Debian'
 
 - name: Ensure Samba is running and set to start on boot.
   service:
