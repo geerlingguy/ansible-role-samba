@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/geerlingguy/ansible-role-samba/actions/workflows/ci.yml/badge.svg)](https://github.com/geerlingguy/ansible-role-samba/actions/workflows/ci.yml)
 
-Installs Samba client and server for RHEL/CentOS.
+Installs Samba client and server for RHEL/CentOS and SLES/openSUSE.
 
 ## Requirements
 
